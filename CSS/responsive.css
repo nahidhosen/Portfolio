@@ -1,0 +1,109 @@
+@media(max-width:1199px){
+    .aside{
+        left: -270px;
+    }
+    .aside.open{
+        left: 0;
+    }
+    .aside .nav-toggler.open{
+        left: 221px;
+        top: 5px;
+    }
+    .aside .nav-toggler{
+        display: flex;
+        left: 30px;
+    }
+    .home .home-img img{
+        width: 300px;
+    }
+    .home-img::after{
+        right: 0px;
+    }
+    .home-img::before{
+        left: 0px;
+    }
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+    }
+    .section{
+        left: 0;
+    }
+    .section .container{
+        padding-top: 70px;
+    }
+    .section.open{
+        left: 270px;
+    }
+}
+@media(max-width:991px){
+    .portfolio .portfolio-item, 
+    .service .service-item, 
+    .contact .contact-info-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img img{
+        margin-left: 213px;
+        margin-top: 54px;
+        display: block;
+        width: 440px;
+        height: 531px;
+    }
+    .home-img::after{
+       right: -348px;
+       bottom: -20px;
+    }
+    .home-img::before{
+        left: 209px;
+        top: 35px;
+    }
+}
+@media(max-width:767px){
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img img{
+        margin-left: 112px;
+        margin-top: 54px;
+        display: block;
+        width: 388px;
+        height: 486px;
+    }
+    .home-img::after{
+        right: -285px;
+        bottom: -20px;
+     }
+     .home-img::before{
+         left: 109px;
+         top: 35px;
+     }
+}
+@media(max-width:390px){
+    .home .home-img img{
+        margin-left: -6px;
+        margin-top: 60px;
+        display: block;
+        width: 346px;
+        height: 465px;
+    }
+    .home-img::after{
+        right: -227px;
+        bottom: -15px;
+     }
+     .home-img::before{
+         left: -9px;
+         top: 44px;
+     }
+}
